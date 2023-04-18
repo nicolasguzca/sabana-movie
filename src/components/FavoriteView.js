@@ -15,10 +15,11 @@ const FavoriteView = () => {
   };
 
   const onNameChange = (e) => {
-    setName(e.target.value);
     if (e.target.value.length > 10) {
-      alert("Name is too long");
+      alert(e.target.value + " is too long");
       setName(e.target.value.substring(0, 10));
+    } else {
+      setName(e.target.value);
     }
   };
 
