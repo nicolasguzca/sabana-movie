@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Unisabana Clase React, firebase project starter
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
